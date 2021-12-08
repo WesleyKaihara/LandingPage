@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ofertas{
+    background: #2e1b41;
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ofertas img{
+    width: 100%;
+}
+
+.ofertas_banner{
+    display: flex;
+}
+
+.bg1{
+    display: flex;
+    position: absolute;
+    margin-top: 73vh;
+    z-index: 0;
+}
+
+.ofertas_content{
+    width: 100%;
+    z-index: 2;
+    margin-top: -7%;
+    text-align: center;
+    font-size: 3vh;
+    color: #fff;
+    background-image: url(./images/bg1.png);
+    padding: 10% 0px;
+    background-repeat: no-repeat;
+}
+
+.ofertas_content h1{
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+.ofertas_content_imgs{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.ofertas_img{
+    width: 100%;
+}
+
+
+.ofertas_receber{
+    display: flex;
+    background: chocolate;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding:5vh
+}
+
+.ofertas_input{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+}
+
+.ofertas_campo{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #888;
+    margin-top: 2vh;
+}
+
+.download_content{
+    display: flex;
+    flex-direction: column;
+    background: #2e1b41;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.download_imgs{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.download_plataformas{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.download_plataformas img {
+    margin-top: 3vh;
+}
+
+.download_lojas{
+    width: 70%;
+}
+
+.download_lojas img{
+    width: 100%;
+}
+
+.promocao{
+    background: chocolate;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 2vh;
+    padding: 3vh;
+}
+
+footer{
+    background: #000;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+footer h2{
+    color: #fff;
+    font-size: 3vh;
+}
+
+footer p{
+    color: #fff;
+    padding-top: 6vh;
+    font-size: 2vh;
+}
+.infor{
+    padding-top: 3vh;
+}
+
+.redeSocial{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+}
+
+@media(max-width:1000px){
+    
+    .ofertas_content{
+        
+        margin-top: -10%;
+    }
+
+    .ofertas_input{
+        font-size: 2vh;
+    }
+   
+}
+
+@media(max-width:810px){
+    
+    .ofertas_content{
+        
+        margin-top: -12%;
+        padding: 15% 0 ;
+    }
+    
+    .ofertas_input{
+        font-size: 1.2vh;
+    }
+
+    .ofertas_content_imgs{
+        flex-direction: column;
+    }
+
+    .download_imgs {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .download_plataformas{
+        width: 60%;
+        margin: auto;
+    }
+
+    .download_lojas {
+        width: 100%;
+        margin: auto;
+    }
+}
